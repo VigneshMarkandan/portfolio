@@ -1,0 +1,46 @@
+span{
+    color: #00ABAE;
+}
+div.vocation{
+    opacity: 0.5;
+}
+div.skills{
+    font-size: 22;
+    color: #00ABAE;
+}
+nav.navbar{
+    font-weight: bold;
+}
+a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+#p{
+    color: #00ABAE;
+}
+.pro1{
+    text-align: center;
+}
+.pro{
+    margin-left: 5vw;
+}
+body > div#about{
+    text-align: center;
+}
+body > div#about > img{
+    border-radius: 35%;
+    width: 15vw;
+}
+#navbarText > a:nth-child(2) > span{
+    margin-right: 1vw;
+}
+#about > div:nth-child(8){
+    margin-top: 2vw;
+}
+#about > div:nth-child(8) > a:nth-child(1) > i{
+   font-size: 3vw;
+}
+#about > div:nth-child(8) > a:nth-child(2){
+    font-size: 3vw;
+}
