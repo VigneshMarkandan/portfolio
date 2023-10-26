@@ -23,14 +23,16 @@ a{
     text-align: center;
 }
 .pro{
-    margin-left: 5vw;
+    margin: 0 auto;
 }
 body > div#about{
     text-align: center;
 }
 body > div#about > img{
-    border-radius: 35%;
-    width: 15vw;
+    border-radius: 50%;
+    width: 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 #navbarText > a:nth-child(2) > span{
     margin-right: 1vw;
@@ -39,8 +41,19 @@ body > div#about > img{
     margin-top: 2vw;
 }
 #about > div:nth-child(8) > a:nth-child(1) > i{
-   font-size: 3vw;
+   font-size: 40px;
+   margin: 10px;
 }
 #about > div:nth-child(8) > a:nth-child(2){
-    font-size: 3vw;
+    font-size: 40px;
+    margin: 10px;
+}
+
+
+
+#about, #project{
+    padding:  20px 5%;
+}
+.card{
+    margin: 0 auto;
 }
